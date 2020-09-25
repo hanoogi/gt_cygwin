@@ -1,0 +1,1 @@
+/usr/bin/c++.exe   -Wl,--enable-auto-import CMakeFiles/triangle_test.dir/triangle_test.cpp.o  -o triangle_test.exe -Wl,--out-implib,libtriangle_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest -lgtest_main ../libtriangle.a 

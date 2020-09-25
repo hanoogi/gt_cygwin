@@ -1,0 +1,8 @@
+/home/noogi/projects/triangle/build/CMakeFiles/rebuild_cache.dir
+/home/noogi/projects/triangle/build/CMakeFiles/edit_cache.dir
+/home/noogi/projects/triangle/build/CMakeFiles/test.dir
+/home/noogi/projects/triangle/build/CMakeFiles/triangle.dir
+/home/noogi/projects/triangle/build/test/CMakeFiles/rebuild_cache.dir
+/home/noogi/projects/triangle/build/test/CMakeFiles/edit_cache.dir
+/home/noogi/projects/triangle/build/test/CMakeFiles/test.dir
+/home/noogi/projects/triangle/build/test/CMakeFiles/triangle_test.dir
