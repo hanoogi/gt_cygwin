@@ -1,4 +1,4 @@
-# Install script for directory: /home/noogi/projects/triangle
+# Install script for directory: /home/김한욱/gt_cygwin/triangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/noogi/projects/triangle/build/test/cmake_install.cmake")
+  include("/home/김한욱/gt_cygwin/triangle/build/test/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/noogi/projects/triangle/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/김한욱/gt_cygwin/triangle/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

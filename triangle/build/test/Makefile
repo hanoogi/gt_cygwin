@@ -68,10 +68,10 @@ RM = /usr/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noogi/projects/triangle
+CMAKE_SOURCE_DIR = /home/김한욱/gt_cygwin/triangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noogi/projects/triangle/build
+CMAKE_BINARY_DIR = /home/김한욱/gt_cygwin/triangle/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -111,14 +111,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/noogi/projects/triangle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/noogi/projects/triangle/build/CMakeFiles /home/noogi/projects/triangle/build/test/CMakeFiles/progress.marks
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noogi/projects/triangle/build/CMakeFiles 0
+	cd /home/김한욱/gt_cygwin/triangle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/김한욱/gt_cygwin/triangle/build/CMakeFiles /home/김한욱/gt_cygwin/triangle/build/test/CMakeFiles/progress.marks
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/김한욱/gt_cygwin/triangle/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -128,22 +128,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/noogi/projects/triangle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/김한욱/gt_cygwin/triangle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/triangle_test.dir/rule:
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/triangle_test.dir/rule
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/triangle_test.dir/rule
 .PHONY : test/CMakeFiles/triangle_test.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ triangle_test: test/CMakeFiles/triangle_test.dir/rule
 
 # fast build rule for target.
 triangle_test/fast:
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/build
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/build
 .PHONY : triangle_test/fast
 
 triangle_test.o: triangle_test.cpp.o
@@ -162,7 +162,7 @@ triangle_test.o: triangle_test.cpp.o
 
 # target to build an object file
 triangle_test.cpp.o:
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/triangle_test.cpp.o
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/triangle_test.cpp.o
 .PHONY : triangle_test.cpp.o
 
 triangle_test.i: triangle_test.cpp.i
@@ -171,7 +171,7 @@ triangle_test.i: triangle_test.cpp.i
 
 # target to preprocess a source file
 triangle_test.cpp.i:
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/triangle_test.cpp.i
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/triangle_test.cpp.i
 .PHONY : triangle_test.cpp.i
 
 triangle_test.s: triangle_test.cpp.s
@@ -180,7 +180,7 @@ triangle_test.s: triangle_test.cpp.s
 
 # target to generate assembly for a file
 triangle_test.cpp.s:
-	cd /home/noogi/projects/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/triangle_test.cpp.s
+	cd /home/김한욱/gt_cygwin/triangle/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/triangle_test.dir/build.make test/CMakeFiles/triangle_test.dir/triangle_test.cpp.s
 .PHONY : triangle_test.cpp.s
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/noogi/projects/triangle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/김한욱/gt_cygwin/triangle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

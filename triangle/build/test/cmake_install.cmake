@@ -1,4 +1,4 @@
-# Install script for directory: /home/noogi/projects/triangle/test
+# Install script for directory: /home/김한욱/gt_cygwin/triangle/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

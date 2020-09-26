@@ -1,8 +1,8 @@
-/home/noogi/projects/triangle/build/CMakeFiles/rebuild_cache.dir
-/home/noogi/projects/triangle/build/CMakeFiles/edit_cache.dir
-/home/noogi/projects/triangle/build/CMakeFiles/test.dir
-/home/noogi/projects/triangle/build/CMakeFiles/triangle.dir
-/home/noogi/projects/triangle/build/test/CMakeFiles/rebuild_cache.dir
-/home/noogi/projects/triangle/build/test/CMakeFiles/edit_cache.dir
-/home/noogi/projects/triangle/build/test/CMakeFiles/test.dir
-/home/noogi/projects/triangle/build/test/CMakeFiles/triangle_test.dir
+/home/김한욱/gt_cygwin/triangle/build/CMakeFiles/rebuild_cache.dir
+/home/김한욱/gt_cygwin/triangle/build/CMakeFiles/edit_cache.dir
+/home/김한욱/gt_cygwin/triangle/build/CMakeFiles/test.dir
+/home/김한욱/gt_cygwin/triangle/build/CMakeFiles/triangle.dir
+/home/김한욱/gt_cygwin/triangle/build/test/CMakeFiles/rebuild_cache.dir
+/home/김한욱/gt_cygwin/triangle/build/test/CMakeFiles/edit_cache.dir
+/home/김한욱/gt_cygwin/triangle/build/test/CMakeFiles/test.dir
+/home/김한욱/gt_cygwin/triangle/build/test/CMakeFiles/triangle_test.dir

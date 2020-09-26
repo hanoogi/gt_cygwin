@@ -63,10 +63,10 @@ RM = /usr/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noogi/projects/triangle
+CMAKE_SOURCE_DIR = /home/김한욱/gt_cygwin/triangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noogi/projects/triangle/build
+CMAKE_BINARY_DIR = /home/김한욱/gt_cygwin/triangle/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/triangle.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/triangle.dir/flags.make
 
 CMakeFiles/triangle.dir/triangle.cpp.o: CMakeFiles/triangle.dir/flags.make
 CMakeFiles/triangle.dir/triangle.cpp.o: ../triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/noogi/projects/triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangle.dir/triangle.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangle.dir/triangle.cpp.o -c /home/noogi/projects/triangle/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/김한욱/gt_cygwin/triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangle.dir/triangle.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangle.dir/triangle.cpp.o -c /home/김한욱/gt_cygwin/triangle/triangle.cpp
 
 CMakeFiles/triangle.dir/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangle.dir/triangle.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/noogi/projects/triangle/triangle.cpp > CMakeFiles/triangle.dir/triangle.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/김한욱/gt_cygwin/triangle/triangle.cpp > CMakeFiles/triangle.dir/triangle.cpp.i
 
 CMakeFiles/triangle.dir/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangle.dir/triangle.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/noogi/projects/triangle/triangle.cpp -o CMakeFiles/triangle.dir/triangle.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/김한욱/gt_cygwin/triangle/triangle.cpp -o CMakeFiles/triangle.dir/triangle.cpp.s
 
 # Object files for target triangle
 triangle_OBJECTS = \
@@ -100,7 +100,7 @@ triangle_EXTERNAL_OBJECTS =
 libtriangle.a: CMakeFiles/triangle.dir/triangle.cpp.o
 libtriangle.a: CMakeFiles/triangle.dir/build.make
 libtriangle.a: CMakeFiles/triangle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/noogi/projects/triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtriangle.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/김한욱/gt_cygwin/triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtriangle.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/triangle.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangle.dir/link.txt --verbose=$(VERBOSE)
 
@@ -114,6 +114,6 @@ CMakeFiles/triangle.dir/clean:
 .PHONY : CMakeFiles/triangle.dir/clean
 
 CMakeFiles/triangle.dir/depend:
-	cd /home/noogi/projects/triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/noogi/projects/triangle /home/noogi/projects/triangle /home/noogi/projects/triangle/build /home/noogi/projects/triangle/build /home/noogi/projects/triangle/build/CMakeFiles/triangle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/김한욱/gt_cygwin/triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/김한욱/gt_cygwin/triangle /home/김한욱/gt_cygwin/triangle /home/김한욱/gt_cygwin/triangle/build /home/김한욱/gt_cygwin/triangle/build /home/김한욱/gt_cygwin/triangle/build/CMakeFiles/triangle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/triangle.dir/depend
 

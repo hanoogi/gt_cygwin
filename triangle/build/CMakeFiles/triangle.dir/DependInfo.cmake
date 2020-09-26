@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/noogi/projects/triangle/triangle.cpp" "/home/noogi/projects/triangle/build/CMakeFiles/triangle.dir/triangle.cpp.o"
+  "/home/김한욱/gt_cygwin/triangle/triangle.cpp" "/home/김한욱/gt_cygwin/triangle/build/CMakeFiles/triangle.dir/triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/김한욱/gt_cygwin/triangle/test/triangle_test.cpp
+../triangle.h
+/home/김한욱/gt_cygwin/triangle/triangle.h
+gtest/gtest.h
+-
+
+/home/김한욱/gt_cygwin/triangle/triangle.h
+
