@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libgmock_frm.a  CMakeFiles/gmock_frm.dir/gmock_frm.cc.o
+/usr/bin/ranlib.exe libgmock_frm.a

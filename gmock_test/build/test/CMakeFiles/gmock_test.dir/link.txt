@@ -1,0 +1,1 @@
+/usr/bin/c++.exe   -Wl,--enable-auto-import CMakeFiles/gmock_test.dir/gmock_test.cc.o  -o gmock_test.exe -Wl,--out-implib,libgmock_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lgtest -lgmock -lgmock_main ../libgmock_frm.a 

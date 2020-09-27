@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/김한욱/gt_cygwin/gmock_test/test/gmock_test.cc
+iostream
+-
+string
+-
+gmock/gmock.h
+/home/김한욱/gt_cygwin/gmock_test/test/gmock/gmock.h
+gtest/gtest.h
+/home/김한욱/gt_cygwin/gmock_test/test/gtest/gtest.h
+
