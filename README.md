@@ -1,5 +1,5 @@
 # build 방법
-현재 위치에서 이동
+현재 위치에서 이동(triangle, gmock_test)
 ```
 cd triangle
 mkdir build
